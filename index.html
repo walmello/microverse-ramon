@@ -9,7 +9,11 @@
         position: fixed;
         top: 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #eeee;
+        width: 100%;
+        z-index: 1000;
       }
 
       @media(max-width: 300px){
@@ -23,10 +27,40 @@
     .center{
       display: flex;
       justify-content: center;
-      
     }
 
+    #header-img{
+      width: 100px;
+    }
 
+    nav a {
+      padding: 0 1em;
+      color: black;
+      font-size: 1.2em;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container h1 {
+      font-size: 1.2em;
+    }
+
+    .container img {
+      padding: 2em;
+    }
+
+    section {
+      margin-top: 20vh;
+    }
 
     </style>
   </head>
@@ -49,27 +83,74 @@
 
     <header id="header">
       <nav id="nav-bar">
-        <a class="nav-link" href="#sect1">link 1</a>
-        <a class="nav-link" href="#sect2">link 2</a>
-        <a class="nav-link" href="#sect3">link 3</a>
-      </nav>
-      <div class="center">
-      <img src="https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-gradiente-com-forma-abstrata_23-2148204210.jpg?size=338&ext=jpg" alt="" id="header-img">
-    </div>
-
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input name="email" id="email" placeholder="email" type="email">
-        <input id="submit" type="submit">
-      </form>
+        <img src="https://s1.logaster.com/static/v3/img/products/logo.png" alt="" id="header-img">
+        <div>
+          <a class="nav-link" href="#sect1">Home</a>
+          <a class="nav-link" href="#sect2">About</a>
+          <a class="nav-link" href="#sect3">Product</a>
+        </div>
+      </nav>      
     </header>
 
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0WWuJaNSFgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
 
-    <h1>Hello World, we are software developers!!</h1>
 
-    <section id="sect1"></section>
-    <section id="sect2"></section>
-    <section id="sect3"></section>
+    <section id="sect1" class="center">
+      <div>
+        <h1>Get updated here</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" placeholder="email" type="email">
+          <input id="submit" type="submit">
+        </form>  
+      </div>
+    </section>
+    <section id="sect2" class="center">
+      <div >
+        <h1>A very good product here!!</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0WWuJaNSFgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="sect3">
+      <div class="container">
+        <img width="100" src="https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg" alt="">
+        <div>
+          <h1>Something nice about</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam commodi ex blanditiis alias beatae dolorem id! Quod, ipsum voluptatem! Nam voluptatibus quibusdam nisi veritatis possimus, nemo eius odit laborum rerum.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <img width="100" src="https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg" alt="">
+        <div>
+          <h1>Something nice about</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam commodi ex blanditiis alias beatae dolorem id! Quod, ipsum voluptatem! Nam voluptatibus quibusdam nisi veritatis possimus, nemo eius odit laborum rerum.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <img width="100" src="https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg" alt="">
+        <div>
+          <h1>Something nice about</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam commodi ex blanditiis alias beatae dolorem id! Quod, ipsum voluptatem! Nam voluptatibus quibusdam nisi veritatis possimus, nemo eius odit laborum rerum.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <img width="100" src="https://previews.123rf.com/images/aquir/aquir1311/aquir131100316/23569861-sample-grunge-red-round-stamp.jpg" alt="">
+        <div>
+          <h1>Something nice about</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam commodi ex blanditiis alias beatae dolorem id! Quod, ipsum voluptatem! Nam voluptatibus quibusdam nisi veritatis possimus, nemo eius odit laborum rerum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatibus sit error voluptate illum accusantium, nihil, commodi nisi sequi esse perspiciatis, recusandae sunt. Delectus nesciunt ipsum blanditiis, vel illum eos.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum impedit, veniam tenetur nam temporibus voluptatem accusantium quidem quas hic quam culpa error in magni repellendus molestias, fuga alias necessitatibus perferendis.
+          </p>
+        </div>
+      </div>
+    </section>
     
     
 
