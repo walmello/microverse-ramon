@@ -15,6 +15,17 @@
       @media(max-width: 300px){
 
       }
+    form{
+      display: flex;
+      justify-content: center;
+    }
+
+    .center{
+      display: flex;
+      justify-content: center;
+      
+    }
+
 
 
     </style>
@@ -42,7 +53,14 @@
         <a class="nav-link" href="#sect2">link 2</a>
         <a class="nav-link" href="#sect3">link 3</a>
       </nav>
+      <div class="center">
       <img src="https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-gradiente-com-forma-abstrata_23-2148204210.jpg?size=338&ext=jpg" alt="" id="header-img">
+    </div>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" placeholder="email" type="email">
+        <input id="submit" type="submit">
+      </form>
     </header>
 
     <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/0WWuJaNSFgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,11 +71,9 @@
     <section id="sect2"></section>
     <section id="sect3"></section>
     
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input name="email" id="email" placeholder="email" type="email">
-      <input id="submit" type="submit">
-    </form>
+    
 
     <script  src="js/index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
   </body>
 </html>
